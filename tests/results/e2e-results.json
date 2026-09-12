@@ -1,0 +1,450 @@
+{
+  "base": "http://localhost:3100",
+  "ranAt": "2026-09-03T03:15:35.449Z",
+  "results": [
+    {
+      "area": "contact/desktop",
+      "check": "no horizontal overflow",
+      "pass": true,
+      "detail": "overflow=0px"
+    },
+    {
+      "area": "contact/desktop",
+      "check": "honeypot present and hidden",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"honeypotPresent\":true,\"honeypotHidden\":true}"
+    },
+    {
+      "area": "contact/desktop",
+      "check": "empty submit shows validation errors",
+      "pass": true,
+      "detail": "5 field errors"
+    },
+    {
+      "area": "contact/desktop",
+      "check": "empty submit makes zero network requests",
+      "pass": true,
+      "detail": "0 submission requests"
+    },
+    {
+      "area": "contact/desktop",
+      "check": "invalid email rejected locally",
+      "pass": true,
+      "detail": "emailErrors=2, submissionRequests=0"
+    },
+    {
+      "area": "contact/desktop",
+      "check": "honeypot submission rejected locally with zero requests",
+      "pass": true,
+      "detail": "submissionRequests=0, errorShown=true"
+    },
+    {
+      "area": "contact/desktop",
+      "check": "entries kept after honeypot rejection",
+      "pass": true,
+      "detail": "name=\"Audit Tester\""
+    },
+    {
+      "area": "contact/desktop",
+      "check": "inhumanly fast submit rejected locally with zero requests",
+      "pass": true,
+      "detail": "submissionRequests=0, errorShown=true"
+    },
+    {
+      "area": "contact/desktop",
+      "check": "valid submit sends exactly one request",
+      "pass": true,
+      "detail": "1 web3forms POST(s)"
+    },
+    {
+      "area": "contact/desktop",
+      "check": "that request goes to https://api.web3forms.com/submit",
+      "pass": true,
+      "detail": "https://api.web3forms.com/submit"
+    },
+    {
+      "area": "contact/desktop",
+      "check": "zero requests to any other endpoint (no relay, no legacy API)",
+      "pass": true,
+      "detail": "other=0, legacyApi=0, relays=none"
+    },
+    {
+      "area": "contact/desktop",
+      "check": "payload carries the public access key",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "contact/desktop",
+      "check": "payload sets customer email as replyto",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "contact/desktop",
+      "check": "payload has a form-specific subject",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "contact/desktop",
+      "check": "failed Web3Forms request shows an error, never success",
+      "pass": true,
+      "detail": "success=0, error=1; network failure at Web3Forms edge (net::ERR_FAILED)"
+    },
+    {
+      "area": "contact/desktop",
+      "check": "entries preserved after failure for retry",
+      "pass": true,
+      "detail": "name=\"Audit Tester\""
+    },
+    {
+      "area": "contact/desktop",
+      "check": "submit button re-enabled after failure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "contact/desktop",
+      "check": "no uncaught page errors",
+      "pass": true,
+      "detail": "none"
+    },
+    {
+      "area": "contact/mobile",
+      "check": "no horizontal overflow",
+      "pass": true,
+      "detail": "overflow=0px"
+    },
+    {
+      "area": "contact/mobile",
+      "check": "honeypot present and hidden",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"honeypotPresent\":true,\"honeypotHidden\":true}"
+    },
+    {
+      "area": "contact/mobile",
+      "check": "empty submit shows validation errors",
+      "pass": true,
+      "detail": "5 field errors"
+    },
+    {
+      "area": "contact/mobile",
+      "check": "empty submit makes zero network requests",
+      "pass": true,
+      "detail": "0 submission requests"
+    },
+    {
+      "area": "contact/mobile",
+      "check": "invalid email rejected locally",
+      "pass": true,
+      "detail": "emailErrors=2, submissionRequests=0"
+    },
+    {
+      "area": "contact/mobile",
+      "check": "honeypot submission rejected locally with zero requests",
+      "pass": true,
+      "detail": "submissionRequests=0, errorShown=true"
+    },
+    {
+      "area": "contact/mobile",
+      "check": "entries kept after honeypot rejection",
+      "pass": true,
+      "detail": "name=\"Audit Tester\""
+    },
+    {
+      "area": "contact/mobile",
+      "check": "inhumanly fast submit rejected locally with zero requests",
+      "pass": true,
+      "detail": "submissionRequests=0, errorShown=true"
+    },
+    {
+      "area": "contact/mobile",
+      "check": "valid submit sends exactly one request",
+      "pass": true,
+      "detail": "1 web3forms POST(s)"
+    },
+    {
+      "area": "contact/mobile",
+      "check": "that request goes to https://api.web3forms.com/submit",
+      "pass": true,
+      "detail": "https://api.web3forms.com/submit"
+    },
+    {
+      "area": "contact/mobile",
+      "check": "zero requests to any other endpoint (no relay, no legacy API)",
+      "pass": true,
+      "detail": "other=0, legacyApi=0, relays=none"
+    },
+    {
+      "area": "contact/mobile",
+      "check": "payload carries the public access key",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "contact/mobile",
+      "check": "payload sets customer email as replyto",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "contact/mobile",
+      "check": "payload has a form-specific subject",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "contact/mobile",
+      "check": "failed Web3Forms request shows an error, never success",
+      "pass": true,
+      "detail": "success=0, error=1; network failure at Web3Forms edge (net::ERR_FAILED)"
+    },
+    {
+      "area": "contact/mobile",
+      "check": "entries preserved after failure for retry",
+      "pass": true,
+      "detail": "name=\"Audit Tester\""
+    },
+    {
+      "area": "contact/mobile",
+      "check": "submit button re-enabled after failure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "contact/mobile",
+      "check": "no uncaught page errors",
+      "pass": true,
+      "detail": "none"
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "no horizontal overflow",
+      "pass": true,
+      "detail": "overflow=0px"
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "honeypot present and hidden",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"honeypotPresent\":true,\"honeypotHidden\":true}"
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "empty submit shows validation errors",
+      "pass": true,
+      "detail": "8 field errors"
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "empty submit makes zero network requests",
+      "pass": true,
+      "detail": "0 submission requests"
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "invalid email rejected locally",
+      "pass": true,
+      "detail": "emailErrors=2, submissionRequests=0"
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "honeypot submission rejected locally with zero requests",
+      "pass": true,
+      "detail": "submissionRequests=0, errorShown=true"
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "entries kept after honeypot rejection",
+      "pass": true,
+      "detail": "name=\"Audit Tester\""
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "inhumanly fast submit rejected locally with zero requests",
+      "pass": true,
+      "detail": "submissionRequests=0, errorShown=true"
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "valid submit sends exactly one request",
+      "pass": true,
+      "detail": "1 web3forms POST(s)"
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "that request goes to https://api.web3forms.com/submit",
+      "pass": true,
+      "detail": "https://api.web3forms.com/submit"
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "zero requests to any other endpoint (no relay, no legacy API)",
+      "pass": true,
+      "detail": "other=0, legacyApi=0, relays=none"
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "payload carries the public access key",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "payload sets customer email as replyto",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "payload has a form-specific subject",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "failed Web3Forms request shows an error, never success",
+      "pass": true,
+      "detail": "success=0, error=1; network failure at Web3Forms edge (net::ERR_FAILED)"
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "entries preserved after failure for retry",
+      "pass": true,
+      "detail": "name=\"Audit Tester\""
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "submit button re-enabled after failure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "proposal/desktop",
+      "check": "no uncaught page errors",
+      "pass": true,
+      "detail": "none"
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "no horizontal overflow",
+      "pass": true,
+      "detail": "overflow=0px"
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "honeypot present and hidden",
+      "pass": true,
+      "detail": "{\"overflow\":0,\"honeypotPresent\":true,\"honeypotHidden\":true}"
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "empty submit shows validation errors",
+      "pass": true,
+      "detail": "8 field errors"
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "empty submit makes zero network requests",
+      "pass": true,
+      "detail": "0 submission requests"
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "invalid email rejected locally",
+      "pass": true,
+      "detail": "emailErrors=2, submissionRequests=0"
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "honeypot submission rejected locally with zero requests",
+      "pass": true,
+      "detail": "submissionRequests=0, errorShown=true"
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "entries kept after honeypot rejection",
+      "pass": true,
+      "detail": "name=\"Audit Tester\""
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "inhumanly fast submit rejected locally with zero requests",
+      "pass": true,
+      "detail": "submissionRequests=0, errorShown=true"
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "valid submit sends exactly one request",
+      "pass": true,
+      "detail": "1 web3forms POST(s)"
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "that request goes to https://api.web3forms.com/submit",
+      "pass": true,
+      "detail": "https://api.web3forms.com/submit"
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "zero requests to any other endpoint (no relay, no legacy API)",
+      "pass": true,
+      "detail": "other=0, legacyApi=0, relays=none"
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "payload carries the public access key",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "payload sets customer email as replyto",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "payload has a form-specific subject",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "failed Web3Forms request shows an error, never success",
+      "pass": true,
+      "detail": "success=0, error=1; network failure at Web3Forms edge (net::ERR_FAILED)"
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "entries preserved after failure for retry",
+      "pass": true,
+      "detail": "name=\"Audit Tester\""
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "submit button re-enabled after failure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "area": "proposal/mobile",
+      "check": "no uncaught page errors",
+      "pass": true,
+      "detail": "none"
+    },
+    {
+      "area": "duplicate-prevention",
+      "check": "button disabled + aria-busy + 'Sending…' while submitting",
+      "pass": true,
+      "detail": "disabled=true, aria-busy=true, label=\"Sending…\""
+    },
+    {
+      "area": "duplicate-prevention",
+      "check": "double-click fires exactly one Web3Forms request",
+      "pass": true,
+      "detail": "1 request(s)"
+    }
+  ]
+}

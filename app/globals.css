@@ -1,0 +1,216 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------
+   Terravian global styles
+   - Sharp corners, no gradients (brand rules)
+   - Visible focus treatment that is never removed without replacement
+   - prefers-reduced-motion honored globally
+------------------------------------------------------------------- */
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-white font-body text-charcoal antialiased;
+    /* Compensate for the sticky mobile action bar so it never covers content */
+    @apply pb-16 md:pb-0;
+  }
+
+  /* Sans-led headings: modern commercial feel. The serif (font-display)
+     is reserved for deliberate premium accents only. */
+  h1, h2, h3, h4 {
+    @apply font-body font-bold tracking-tight text-balance;
+  }
+
+  /* Newsreader display text renders at the optical size matching the
+     element's font size. Without this the variable font stays at its
+     default opsz (text cut) even at headline sizes. */
+  .font-display {
+    font-optical-sizing: auto;
+  }
+
+  /* Mobile typography (client direction, Step 5): on phones the display
+     serif steps back to the site sans so pages read robust/commercial/
+     operational rather than editorial. Serif remains on mobile only where
+     it is a deliberate brand accent — header wordmark and footer tagline
+     (.brand-serif). Desktop typography system unchanged. */
+  @media (max-width: 767.98px) {
+    .font-display:not(.brand-serif) {
+      font-family: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+    }
+  }
+
+  /* Focus treatment: 3px earth on light surfaces; components on dark
+     surfaces override with cream via the .focus-on-dark utility below. */
+  :focus-visible {
+    outline: 3px solid #7c500c;
+    outline-offset: 2px;
+    border-radius: 0;
+  }
+
+  /* Form inputs get permanent visible labels; placeholders (if any) are
+     never the label. */
+  input, select, textarea {
+    @apply rounded-none;
+  }
+}
+
+@layer components {
+  .container-site {
+    @apply mx-auto w-full max-w-container px-5 md:px-8 lg:px-10;
+  }
+
+  /* Header/footer chrome: wider than content so navigation reads
+     edge-to-edge on large monitors instead of floating mid-screen. */
+  .container-chrome {
+    @apply mx-auto w-full max-w-container-wide px-5 md:px-8 lg:px-12;
+  }
+
+  .eyebrow {
+    @apply text-[0.8125rem] font-semibold uppercase tracking-[0.08em] text-earth;
+  }
+
+  .focus-on-dark:focus-visible {
+    outline-color: #faf7f0;
+  }
+
+  /* Localized on-photo text legibility — no panels or scrims. Layered
+     shadows darken only the pixels immediately behind each glyph, so white
+     type reads crisply over photography while the image stays untouched.
+     (Brand rule permits localized text scrims; these are that, per-glyph.) */
+  .card-text-shadow {
+    text-shadow:
+      0 1px 2px rgba(10, 10, 10, 0.85),
+      0 2px 6px rgba(10, 10, 10, 0.65),
+      0 4px 14px rgba(10, 10, 10, 0.55),
+      0 8px 30px rgba(10, 10, 10, 0.45);
+  }
+  .card-text-shadow-sm {
+    text-shadow:
+      0 1px 2px rgba(10, 10, 10, 0.9),
+      0 2px 8px rgba(10, 10, 10, 0.65),
+      0 4px 18px rgba(10, 10, 10, 0.5);
+  }
+
+  /* Skip link: visually hidden until focused */
+  .skip-link {
+    @apply sr-only;
+  }
+  .skip-link:focus-visible {
+    @apply not-sr-only absolute left-4 top-4 z-[100] bg-forest px-4 py-3 font-semibold text-cream;
+  }
+}
+
+/* Reduced motion: disable nonessential movement everywhere. Content must
+   remain fully available; nothing may depend on animation. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Atmospheric snowfall (Snow & Ice page) — small, slow, low-opacity flakes.
+   Purely decorative; the global reduced-motion rule above already stops the
+   animation, and this hides the flakes entirely so nothing moves or lingers. */
+@keyframes snowfall-fall {
+  from { transform: translate3d(0, -8vh, 0); }
+  to   { transform: translate3d(var(--drift, 2rem), 108vh, 0); }
+}
+.snowfall-flake {
+  position: absolute;
+  top: -8vh;
+  border-radius: 9999px;
+  background: #faf7f0;
+  animation-name: snowfall-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  pointer-events: none;
+}
+@media (max-width: 767px) {
+  /* Simplified motion on mobile: fewer flakes */
+  .snowfall-flake:nth-child(n + 11) { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .snowfall-flake { display: none; }
+}
+
+/* Field photo rail (Landscape & Maintenance page) — one slow, continuous
+   drift. The track is two identical halves, so -50% loops seamlessly.
+   Pauses on hover; the global reduced-motion rule freezes the animation,
+   and the fallback below makes the rail manually scrollable instead. */
+@keyframes field-drift {
+  to { transform: translate3d(-50%, 0, 0); }
+}
+.field-marquee-track {
+  animation: field-drift 55s linear infinite;
+}
+.field-marquee:hover .field-marquee-track {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .field-marquee { overflow-x: auto; }
+  .field-marquee-track { animation: none; }
+}
+
+/* Intro loader — first paint of a session: the Terravian mark sits at
+   center on a cream field and makes one slow, full turn before the page
+   fades in. Pure CSS so it self-dismisses even with JavaScript off (the
+   overlay hides itself; the JS layer only unmounts it and skips repeat
+   showings within the session). Under prefers-reduced-motion the global
+   rule above collapses all durations to ~0ms, so the loader never blocks
+   or spins for those users. */
+.intro-loader {
+  animation: intro-loader-hide 2.1s ease forwards;
+}
+@keyframes intro-loader-hide {
+  0%, 70% {
+    opacity: 1;
+    visibility: visible;
+  }
+  78% {
+    pointer-events: none;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+.intro-badge {
+  animation: intro-badge-turn 1.5s cubic-bezier(0.45, 0, 0.2, 1) 0.15s both;
+}
+@keyframes intro-badge-turn {
+  from {
+    transform: rotate(0deg) scale(0.9);
+    opacity: 0;
+  }
+  18% {
+    opacity: 1;
+  }
+  to {
+    transform: rotate(360deg) scale(1);
+    opacity: 1;
+  }
+}
+.intro-tagline {
+  animation: intro-tagline-in 0.9s ease 0.85s both;
+}
+@keyframes intro-tagline-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

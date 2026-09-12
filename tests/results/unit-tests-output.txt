@@ -1,0 +1,115 @@
+
+> terravian-landscaping@0.1.0 test:unit
+> tsc -p tests/tsconfig.json && node --test tests/unit/
+
+TAP version 13
+# Subtest: endpoint is the Web3Forms submit API
+ok 1 - endpoint is the Web3Forms submit API
+  ---
+  duration_ms: 1.400104
+  ...
+# Subtest: the configured access key is the client-supplied public key
+ok 2 - the configured access key is the client-supplied public key
+  ---
+  duration_ms: 0.16261
+  ...
+# Subtest: a reasonable request timeout is configured (5–30s)
+ok 3 - a reasonable request timeout is configured (5–30s)
+  ---
+  duration_ms: 1.340651
+  ...
+# Subtest: contact payload: key, reply-to, form-specific subject, labeled fields
+ok 4 - contact payload: key, reply-to, form-specific subject, labeled fields
+  ---
+  duration_ms: 0.442288
+  ...
+# Subtest: proposal payload: proposal-specific subject using the company
+ok 5 - proposal payload: proposal-specific subject using the company
+  ---
+  duration_ms: 0.343623
+  ...
+# Subtest: proposal subject falls back to the name when company is blank
+ok 6 - proposal subject falls back to the name when company is blank
+  ---
+  duration_ms: 0.176557
+  ...
+# Subtest: accepted: HTTP ok + success:true
+ok 7 - accepted: HTTP ok + success:true
+  ---
+  duration_ms: 0.177155
+  ...
+# Subtest: rejected: HTTP ok + success:false
+ok 8 - rejected: HTTP ok + success:false
+  ---
+  duration_ms: 0.14795
+  ...
+# Subtest: rejected: non-2xx even if body says success:true
+ok 9 - rejected: non-2xx even if body says success:true
+  ---
+  duration_ms: 0.226032
+  ...
+# Subtest: rejected: missing success key, string "true", null, garbage
+ok 10 - rejected: missing success key, string "true", null, garbage
+  ---
+  duration_ms: 0.26107
+  ...
+# Subtest: sanitize trims, collapses line breaks, strips control chars, caps length
+ok 11 - sanitize trims, collapses line breaks, strips control chars, caps length
+  ---
+  duration_ms: 1.506015
+  ...
+# Subtest: validateFields: empty required fields produce errors (empty form is invalid)
+ok 12 - validateFields: empty required fields produce errors (empty form is invalid)
+  ---
+  duration_ms: 0.317506
+  ...
+# Subtest: validateFields: invalid email and phone are rejected
+ok 13 - validateFields: invalid email and phone are rejected
+  ---
+  duration_ms: 0.329511
+  ...
+# Subtest: validateFields: a complete valid contact form passes
+ok 14 - validateFields: a complete valid contact form passes
+  ---
+  duration_ms: 1.092095
+  ...
+# Subtest: validateFields: proposal rules require phone and property address
+ok 15 - validateFields: proposal rules require phone and property address
+  ---
+  duration_ms: 0.276914
+  ...
+# Subtest: validateFields: over-limit values are rejected
+ok 16 - validateFields: over-limit values are rejected
+  ---
+  duration_ms: 0.27316
+  ...
+# Subtest: isSpam: honeypot content means spam
+ok 17 - isSpam: honeypot content means spam
+  ---
+  duration_ms: 0.31336
+  ...
+# Subtest: isSpam: inhumanly fast submission means spam
+ok 18 - isSpam: inhumanly fast submission means spam
+  ---
+  duration_ms: 0.316374
+  ...
+# Subtest: isSpam: missing/invalid timestamp means spam
+ok 19 - isSpam: missing/invalid timestamp means spam
+  ---
+  duration_ms: 0.29798
+  ...
+# Subtest: isSpam: empty honeypot + human pacing is not spam
+ok 20 - isSpam: empty honeypot + human pacing is not spam
+  ---
+  duration_ms: 0.42822
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 173.120993
+unit tests exit: 0

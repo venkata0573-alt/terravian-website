@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-label="Client logo coming soon">
+  <rect width="320" height="160" fill="#FAF7F0"/>
+  <rect x="4" y="4" width="312" height="152" fill="none" stroke="#2C6848" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="160" y="72" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" letter-spacing="3" fill="#2C6848">COMING SOON</text>
+  <rect x="140" y="86" width="40" height="3" fill="#E4B263"/>
+  <text x="160" y="112" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#1C1C1C">Client logos publish with written permission</text>
+</svg>

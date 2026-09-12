@@ -1,0 +1,6 @@
+node_modules/
+.next/
+.next-test/
+*.tsbuildinfo
+tests/.unit-build/
+tests/results/payloads-raw.json

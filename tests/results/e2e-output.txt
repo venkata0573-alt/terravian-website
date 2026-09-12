@@ -1,0 +1,76 @@
+PASS  [contact/desktop] no horizontal overflow — overflow=0px
+PASS  [contact/desktop] honeypot present and hidden — {"overflow":0,"honeypotPresent":true,"honeypotHidden":true}
+PASS  [contact/desktop] empty submit shows validation errors — 5 field errors
+PASS  [contact/desktop] empty submit makes zero network requests — 0 submission requests
+PASS  [contact/desktop] invalid email rejected locally — emailErrors=2, submissionRequests=0
+PASS  [contact/desktop] honeypot submission rejected locally with zero requests — submissionRequests=0, errorShown=true
+PASS  [contact/desktop] entries kept after honeypot rejection — name="Audit Tester"
+PASS  [contact/desktop] inhumanly fast submit rejected locally with zero requests — submissionRequests=0, errorShown=true
+PASS  [contact/desktop] valid submit sends exactly one request — 1 web3forms POST(s)
+PASS  [contact/desktop] that request goes to https://api.web3forms.com/submit — https://api.web3forms.com/submit
+PASS  [contact/desktop] zero requests to any other endpoint (no relay, no legacy API) — other=0, legacyApi=0, relays=none
+PASS  [contact/desktop] payload carries the public access key — 
+PASS  [contact/desktop] payload sets customer email as replyto — 
+PASS  [contact/desktop] payload has a form-specific subject — 
+PASS  [contact/desktop] failed Web3Forms request shows an error, never success — success=0, error=1; network failure at Web3Forms edge (net::ERR_FAILED)
+PASS  [contact/desktop] entries preserved after failure for retry — name="Audit Tester"
+PASS  [contact/desktop] submit button re-enabled after failure — 
+PASS  [contact/desktop] no uncaught page errors — none
+PASS  [contact/mobile] no horizontal overflow — overflow=0px
+PASS  [contact/mobile] honeypot present and hidden — {"overflow":0,"honeypotPresent":true,"honeypotHidden":true}
+PASS  [contact/mobile] empty submit shows validation errors — 5 field errors
+PASS  [contact/mobile] empty submit makes zero network requests — 0 submission requests
+PASS  [contact/mobile] invalid email rejected locally — emailErrors=2, submissionRequests=0
+PASS  [contact/mobile] honeypot submission rejected locally with zero requests — submissionRequests=0, errorShown=true
+PASS  [contact/mobile] entries kept after honeypot rejection — name="Audit Tester"
+PASS  [contact/mobile] inhumanly fast submit rejected locally with zero requests — submissionRequests=0, errorShown=true
+PASS  [contact/mobile] valid submit sends exactly one request — 1 web3forms POST(s)
+PASS  [contact/mobile] that request goes to https://api.web3forms.com/submit — https://api.web3forms.com/submit
+PASS  [contact/mobile] zero requests to any other endpoint (no relay, no legacy API) — other=0, legacyApi=0, relays=none
+PASS  [contact/mobile] payload carries the public access key — 
+PASS  [contact/mobile] payload sets customer email as replyto — 
+PASS  [contact/mobile] payload has a form-specific subject — 
+PASS  [contact/mobile] failed Web3Forms request shows an error, never success — success=0, error=1; network failure at Web3Forms edge (net::ERR_FAILED)
+PASS  [contact/mobile] entries preserved after failure for retry — name="Audit Tester"
+PASS  [contact/mobile] submit button re-enabled after failure — 
+PASS  [contact/mobile] no uncaught page errors — none
+PASS  [proposal/desktop] no horizontal overflow — overflow=0px
+PASS  [proposal/desktop] honeypot present and hidden — {"overflow":0,"honeypotPresent":true,"honeypotHidden":true}
+PASS  [proposal/desktop] empty submit shows validation errors — 8 field errors
+PASS  [proposal/desktop] empty submit makes zero network requests — 0 submission requests
+PASS  [proposal/desktop] invalid email rejected locally — emailErrors=2, submissionRequests=0
+PASS  [proposal/desktop] honeypot submission rejected locally with zero requests — submissionRequests=0, errorShown=true
+PASS  [proposal/desktop] entries kept after honeypot rejection — name="Audit Tester"
+PASS  [proposal/desktop] inhumanly fast submit rejected locally with zero requests — submissionRequests=0, errorShown=true
+PASS  [proposal/desktop] valid submit sends exactly one request — 1 web3forms POST(s)
+PASS  [proposal/desktop] that request goes to https://api.web3forms.com/submit — https://api.web3forms.com/submit
+PASS  [proposal/desktop] zero requests to any other endpoint (no relay, no legacy API) — other=0, legacyApi=0, relays=none
+PASS  [proposal/desktop] payload carries the public access key — 
+PASS  [proposal/desktop] payload sets customer email as replyto — 
+PASS  [proposal/desktop] payload has a form-specific subject — 
+PASS  [proposal/desktop] failed Web3Forms request shows an error, never success — success=0, error=1; network failure at Web3Forms edge (net::ERR_FAILED)
+PASS  [proposal/desktop] entries preserved after failure for retry — name="Audit Tester"
+PASS  [proposal/desktop] submit button re-enabled after failure — 
+PASS  [proposal/desktop] no uncaught page errors — none
+PASS  [proposal/mobile] no horizontal overflow — overflow=0px
+PASS  [proposal/mobile] honeypot present and hidden — {"overflow":0,"honeypotPresent":true,"honeypotHidden":true}
+PASS  [proposal/mobile] empty submit shows validation errors — 8 field errors
+PASS  [proposal/mobile] empty submit makes zero network requests — 0 submission requests
+PASS  [proposal/mobile] invalid email rejected locally — emailErrors=2, submissionRequests=0
+PASS  [proposal/mobile] honeypot submission rejected locally with zero requests — submissionRequests=0, errorShown=true
+PASS  [proposal/mobile] entries kept after honeypot rejection — name="Audit Tester"
+PASS  [proposal/mobile] inhumanly fast submit rejected locally with zero requests — submissionRequests=0, errorShown=true
+PASS  [proposal/mobile] valid submit sends exactly one request — 1 web3forms POST(s)
+PASS  [proposal/mobile] that request goes to https://api.web3forms.com/submit — https://api.web3forms.com/submit
+PASS  [proposal/mobile] zero requests to any other endpoint (no relay, no legacy API) — other=0, legacyApi=0, relays=none
+PASS  [proposal/mobile] payload carries the public access key — 
+PASS  [proposal/mobile] payload sets customer email as replyto — 
+PASS  [proposal/mobile] payload has a form-specific subject — 
+PASS  [proposal/mobile] failed Web3Forms request shows an error, never success — success=0, error=1; network failure at Web3Forms edge (net::ERR_FAILED)
+PASS  [proposal/mobile] entries preserved after failure for retry — name="Audit Tester"
+PASS  [proposal/mobile] submit button re-enabled after failure — 
+PASS  [proposal/mobile] no uncaught page errors — none
+PASS  [duplicate-prevention] button disabled + aria-busy + 'Sending…' while submitting — disabled=true, aria-busy=true, label="Sending…"
+PASS  [duplicate-prevention] double-click fires exactly one Web3Forms request — 1 request(s)
+
+==== 74/74 checks passed ====

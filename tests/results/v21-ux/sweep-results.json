@@ -1,0 +1,5287 @@
+[
+  {
+    "page": "/",
+    "width": "m320",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/",
+    "width": "m320",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/",
+    "width": "m320",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/",
+    "width": "m320",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/",
+    "width": "m320",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/",
+    "width": "m320",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/",
+    "width": "m320",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/",
+    "width": "m320",
+    "check": "mobile hero has no CTA panel",
+    "pass": true,
+    "detail": "ctaLinksInHero=0"
+  },
+  {
+    "page": "/",
+    "width": "m320",
+    "check": "headings not oversized",
+    "pass": true,
+    "detail": "maxHeading=30.4px"
+  },
+  {
+    "page": "/services",
+    "width": "m320",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services",
+    "width": "m320",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services",
+    "width": "m320",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services",
+    "width": "m320",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services",
+    "width": "m320",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services",
+    "width": "m320",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services",
+    "width": "m320",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m320",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m320",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m320",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m320",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m320",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m320",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m320",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m320",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m320",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m320",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m320",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m320",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m320",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m320",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m320",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m320",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m320",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m320",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m320",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m320",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m320",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/industries",
+    "width": "m320",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/industries",
+    "width": "m320",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/industries",
+    "width": "m320",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/industries",
+    "width": "m320",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/industries",
+    "width": "m320",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/industries",
+    "width": "m320",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/industries",
+    "width": "m320",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m320",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m320",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m320",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m320",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m320",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m320",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m320",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m320",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m320",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m320",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m320",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m320",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m320",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m320",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m320",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m320",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m320",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m320",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m320",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m320",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m320",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m320",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m320",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m320",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m320",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m320",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m320",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m320",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/about",
+    "width": "m320",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/about",
+    "width": "m320",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/about",
+    "width": "m320",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/about",
+    "width": "m320",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/about",
+    "width": "m320",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/about",
+    "width": "m320",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/about",
+    "width": "m320",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/contact",
+    "width": "m320",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/contact",
+    "width": "m320",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/contact",
+    "width": "m320",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/contact",
+    "width": "m320",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/contact",
+    "width": "m320",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/contact",
+    "width": "m320",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/contact",
+    "width": "m320",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m320",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m320",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m320",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m320",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m320",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m320",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m320",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/privacy",
+    "width": "m320",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/privacy",
+    "width": "m320",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/privacy",
+    "width": "m320",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/privacy",
+    "width": "m320",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/privacy",
+    "width": "m320",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/privacy",
+    "width": "m320",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/privacy",
+    "width": "m320",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/",
+    "width": "m375",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/",
+    "width": "m375",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/",
+    "width": "m375",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/",
+    "width": "m375",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/",
+    "width": "m375",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/",
+    "width": "m375",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/",
+    "width": "m375",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/",
+    "width": "m375",
+    "check": "mobile hero has no CTA panel",
+    "pass": true,
+    "detail": "ctaLinksInHero=0"
+  },
+  {
+    "page": "/",
+    "width": "m375",
+    "check": "headings not oversized",
+    "pass": true,
+    "detail": "maxHeading=30.4px"
+  },
+  {
+    "page": "/services",
+    "width": "m375",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services",
+    "width": "m375",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services",
+    "width": "m375",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services",
+    "width": "m375",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services",
+    "width": "m375",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services",
+    "width": "m375",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services",
+    "width": "m375",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m375",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m375",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m375",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m375",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m375",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m375",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m375",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m375",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m375",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m375",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m375",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m375",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m375",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m375",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m375",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m375",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m375",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m375",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m375",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m375",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m375",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/industries",
+    "width": "m375",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/industries",
+    "width": "m375",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/industries",
+    "width": "m375",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/industries",
+    "width": "m375",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/industries",
+    "width": "m375",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/industries",
+    "width": "m375",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/industries",
+    "width": "m375",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m375",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m375",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m375",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m375",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m375",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m375",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m375",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m375",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m375",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m375",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m375",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m375",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m375",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m375",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m375",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m375",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m375",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m375",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m375",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m375",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m375",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m375",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m375",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m375",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m375",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m375",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m375",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m375",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/about",
+    "width": "m375",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/about",
+    "width": "m375",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/about",
+    "width": "m375",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/about",
+    "width": "m375",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/about",
+    "width": "m375",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/about",
+    "width": "m375",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/about",
+    "width": "m375",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/contact",
+    "width": "m375",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/contact",
+    "width": "m375",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/contact",
+    "width": "m375",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/contact",
+    "width": "m375",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/contact",
+    "width": "m375",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/contact",
+    "width": "m375",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/contact",
+    "width": "m375",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m375",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m375",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m375",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m375",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m375",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m375",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m375",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/privacy",
+    "width": "m375",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/privacy",
+    "width": "m375",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/privacy",
+    "width": "m375",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/privacy",
+    "width": "m375",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/privacy",
+    "width": "m375",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/privacy",
+    "width": "m375",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/privacy",
+    "width": "m375",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/",
+    "width": "m390",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/",
+    "width": "m390",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/",
+    "width": "m390",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/",
+    "width": "m390",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/",
+    "width": "m390",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/",
+    "width": "m390",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/",
+    "width": "m390",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/",
+    "width": "m390",
+    "check": "mobile hero has no CTA panel",
+    "pass": true,
+    "detail": "ctaLinksInHero=0"
+  },
+  {
+    "page": "/",
+    "width": "m390",
+    "check": "headings not oversized",
+    "pass": true,
+    "detail": "maxHeading=30.4px"
+  },
+  {
+    "page": "/services",
+    "width": "m390",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services",
+    "width": "m390",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services",
+    "width": "m390",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services",
+    "width": "m390",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services",
+    "width": "m390",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services",
+    "width": "m390",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services",
+    "width": "m390",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m390",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m390",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m390",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m390",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m390",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m390",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m390",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m390",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m390",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m390",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m390",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m390",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m390",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m390",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m390",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m390",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m390",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m390",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m390",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m390",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m390",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/industries",
+    "width": "m390",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/industries",
+    "width": "m390",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/industries",
+    "width": "m390",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/industries",
+    "width": "m390",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/industries",
+    "width": "m390",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/industries",
+    "width": "m390",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/industries",
+    "width": "m390",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m390",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m390",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m390",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m390",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m390",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m390",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m390",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m390",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m390",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m390",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m390",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m390",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m390",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m390",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m390",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m390",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m390",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m390",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m390",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m390",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m390",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m390",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m390",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m390",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m390",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m390",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m390",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m390",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/about",
+    "width": "m390",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/about",
+    "width": "m390",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/about",
+    "width": "m390",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/about",
+    "width": "m390",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/about",
+    "width": "m390",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/about",
+    "width": "m390",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/about",
+    "width": "m390",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/contact",
+    "width": "m390",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/contact",
+    "width": "m390",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/contact",
+    "width": "m390",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/contact",
+    "width": "m390",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/contact",
+    "width": "m390",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/contact",
+    "width": "m390",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/contact",
+    "width": "m390",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m390",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m390",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m390",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m390",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m390",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m390",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m390",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/privacy",
+    "width": "m390",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/privacy",
+    "width": "m390",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/privacy",
+    "width": "m390",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/privacy",
+    "width": "m390",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/privacy",
+    "width": "m390",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/privacy",
+    "width": "m390",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/privacy",
+    "width": "m390",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/",
+    "width": "m430",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/",
+    "width": "m430",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/",
+    "width": "m430",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/",
+    "width": "m430",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/",
+    "width": "m430",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/",
+    "width": "m430",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/",
+    "width": "m430",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/",
+    "width": "m430",
+    "check": "mobile hero has no CTA panel",
+    "pass": true,
+    "detail": "ctaLinksInHero=0"
+  },
+  {
+    "page": "/",
+    "width": "m430",
+    "check": "headings not oversized",
+    "pass": true,
+    "detail": "maxHeading=30.4px"
+  },
+  {
+    "page": "/services",
+    "width": "m430",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services",
+    "width": "m430",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services",
+    "width": "m430",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services",
+    "width": "m430",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services",
+    "width": "m430",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services",
+    "width": "m430",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services",
+    "width": "m430",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m430",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m430",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m430",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m430",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m430",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m430",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "m430",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m430",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m430",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m430",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m430",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m430",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m430",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "m430",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m430",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m430",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m430",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m430",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m430",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m430",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "m430",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/industries",
+    "width": "m430",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/industries",
+    "width": "m430",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/industries",
+    "width": "m430",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/industries",
+    "width": "m430",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/industries",
+    "width": "m430",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/industries",
+    "width": "m430",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/industries",
+    "width": "m430",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m430",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m430",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m430",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m430",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m430",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m430",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/portfolio",
+    "width": "m430",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m430",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m430",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m430",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m430",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m430",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m430",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "m430",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m430",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m430",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m430",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m430",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m430",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m430",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "m430",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m430",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m430",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m430",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m430",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m430",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m430",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "m430",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/about",
+    "width": "m430",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/about",
+    "width": "m430",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/about",
+    "width": "m430",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/about",
+    "width": "m430",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/about",
+    "width": "m430",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/about",
+    "width": "m430",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/about",
+    "width": "m430",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/contact",
+    "width": "m430",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/contact",
+    "width": "m430",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/contact",
+    "width": "m430",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/contact",
+    "width": "m430",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/contact",
+    "width": "m430",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/contact",
+    "width": "m430",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/contact",
+    "width": "m430",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m430",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m430",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m430",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m430",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m430",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m430",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "m430",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/privacy",
+    "width": "m430",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/privacy",
+    "width": "m430",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/privacy",
+    "width": "m430",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/privacy",
+    "width": "m430",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/privacy",
+    "width": "m430",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/privacy",
+    "width": "m430",
+    "check": "mobile action bar present",
+    "pass": true,
+    "detail": "visible=true"
+  },
+  {
+    "page": "/privacy",
+    "width": "m430",
+    "check": "action bar not overlapped",
+    "pass": true,
+    "detail": "overlap=false"
+  },
+  {
+    "page": "/",
+    "width": "t768",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/",
+    "width": "t768",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/",
+    "width": "t768",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/",
+    "width": "t768",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/",
+    "width": "t768",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/",
+    "width": "t768",
+    "check": "desktop/tablet hero CTAs retained",
+    "pass": true,
+    "detail": "ctaLinksInHero=2"
+  },
+  {
+    "page": "/services",
+    "width": "t768",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services",
+    "width": "t768",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services",
+    "width": "t768",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services",
+    "width": "t768",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services",
+    "width": "t768",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "t768",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "t768",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "t768",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "t768",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "t768",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "t768",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "t768",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "t768",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "t768",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "t768",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "t768",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "t768",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "t768",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "t768",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "t768",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/industries",
+    "width": "t768",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/industries",
+    "width": "t768",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/industries",
+    "width": "t768",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/industries",
+    "width": "t768",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/industries",
+    "width": "t768",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio",
+    "width": "t768",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio",
+    "width": "t768",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio",
+    "width": "t768",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio",
+    "width": "t768",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio",
+    "width": "t768",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "t768",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "t768",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "t768",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "t768",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "t768",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "t768",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "t768",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "t768",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "t768",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "t768",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "t768",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "t768",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "t768",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "t768",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "t768",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/about",
+    "width": "t768",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/about",
+    "width": "t768",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/about",
+    "width": "t768",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/about",
+    "width": "t768",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/about",
+    "width": "t768",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/contact",
+    "width": "t768",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/contact",
+    "width": "t768",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/contact",
+    "width": "t768",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/contact",
+    "width": "t768",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/contact",
+    "width": "t768",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "t768",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "t768",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "t768",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "t768",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "t768",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/privacy",
+    "width": "t768",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/privacy",
+    "width": "t768",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/privacy",
+    "width": "t768",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/privacy",
+    "width": "t768",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/privacy",
+    "width": "t768",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/",
+    "width": "t1024",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/",
+    "width": "t1024",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/",
+    "width": "t1024",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/",
+    "width": "t1024",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/",
+    "width": "t1024",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/",
+    "width": "t1024",
+    "check": "desktop/tablet hero CTAs retained",
+    "pass": true,
+    "detail": "ctaLinksInHero=2"
+  },
+  {
+    "page": "/services",
+    "width": "t1024",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services",
+    "width": "t1024",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services",
+    "width": "t1024",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services",
+    "width": "t1024",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services",
+    "width": "t1024",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "t1024",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "t1024",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "t1024",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "t1024",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "t1024",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "t1024",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "t1024",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "t1024",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "t1024",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "t1024",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "t1024",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "t1024",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "t1024",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "t1024",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "t1024",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/industries",
+    "width": "t1024",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/industries",
+    "width": "t1024",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/industries",
+    "width": "t1024",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/industries",
+    "width": "t1024",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/industries",
+    "width": "t1024",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio",
+    "width": "t1024",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio",
+    "width": "t1024",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio",
+    "width": "t1024",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio",
+    "width": "t1024",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio",
+    "width": "t1024",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "t1024",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "t1024",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "t1024",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "t1024",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "t1024",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "t1024",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "t1024",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "t1024",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "t1024",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "t1024",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "t1024",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "t1024",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "t1024",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "t1024",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "t1024",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/about",
+    "width": "t1024",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/about",
+    "width": "t1024",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/about",
+    "width": "t1024",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/about",
+    "width": "t1024",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/about",
+    "width": "t1024",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/contact",
+    "width": "t1024",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/contact",
+    "width": "t1024",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/contact",
+    "width": "t1024",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/contact",
+    "width": "t1024",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/contact",
+    "width": "t1024",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "t1024",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "t1024",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "t1024",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "t1024",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "t1024",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/privacy",
+    "width": "t1024",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/privacy",
+    "width": "t1024",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/privacy",
+    "width": "t1024",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/privacy",
+    "width": "t1024",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/privacy",
+    "width": "t1024",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/",
+    "width": "l1366",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/",
+    "width": "l1366",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/",
+    "width": "l1366",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/",
+    "width": "l1366",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/",
+    "width": "l1366",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/",
+    "width": "l1366",
+    "check": "desktop/tablet hero CTAs retained",
+    "pass": true,
+    "detail": "ctaLinksInHero=2"
+  },
+  {
+    "page": "/services",
+    "width": "l1366",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services",
+    "width": "l1366",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services",
+    "width": "l1366",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services",
+    "width": "l1366",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services",
+    "width": "l1366",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "l1366",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "l1366",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "l1366",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "l1366",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "l1366",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "l1366",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "l1366",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "l1366",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "l1366",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "l1366",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "l1366",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "l1366",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "l1366",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "l1366",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "l1366",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/industries",
+    "width": "l1366",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/industries",
+    "width": "l1366",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/industries",
+    "width": "l1366",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/industries",
+    "width": "l1366",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/industries",
+    "width": "l1366",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio",
+    "width": "l1366",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio",
+    "width": "l1366",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio",
+    "width": "l1366",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio",
+    "width": "l1366",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio",
+    "width": "l1366",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "l1366",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "l1366",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "l1366",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "l1366",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "l1366",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "l1366",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "l1366",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "l1366",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "l1366",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "l1366",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "l1366",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "l1366",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "l1366",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "l1366",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "l1366",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/about",
+    "width": "l1366",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/about",
+    "width": "l1366",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/about",
+    "width": "l1366",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/about",
+    "width": "l1366",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/about",
+    "width": "l1366",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/contact",
+    "width": "l1366",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/contact",
+    "width": "l1366",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/contact",
+    "width": "l1366",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/contact",
+    "width": "l1366",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/contact",
+    "width": "l1366",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "l1366",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "l1366",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "l1366",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "l1366",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "l1366",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/privacy",
+    "width": "l1366",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/privacy",
+    "width": "l1366",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/privacy",
+    "width": "l1366",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/privacy",
+    "width": "l1366",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/privacy",
+    "width": "l1366",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/",
+    "width": "d1440",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/",
+    "width": "d1440",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/",
+    "width": "d1440",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/",
+    "width": "d1440",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/",
+    "width": "d1440",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/",
+    "width": "d1440",
+    "check": "desktop/tablet hero CTAs retained",
+    "pass": true,
+    "detail": "ctaLinksInHero=2"
+  },
+  {
+    "page": "/services",
+    "width": "d1440",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services",
+    "width": "d1440",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services",
+    "width": "d1440",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services",
+    "width": "d1440",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services",
+    "width": "d1440",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "d1440",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "d1440",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "d1440",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "d1440",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "d1440",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "d1440",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "d1440",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "d1440",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "d1440",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "d1440",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "d1440",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "d1440",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "d1440",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "d1440",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "d1440",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/industries",
+    "width": "d1440",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/industries",
+    "width": "d1440",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/industries",
+    "width": "d1440",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/industries",
+    "width": "d1440",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/industries",
+    "width": "d1440",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio",
+    "width": "d1440",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio",
+    "width": "d1440",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio",
+    "width": "d1440",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio",
+    "width": "d1440",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio",
+    "width": "d1440",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "d1440",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "d1440",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "d1440",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "d1440",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "d1440",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "d1440",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "d1440",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "d1440",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "d1440",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "d1440",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "d1440",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "d1440",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "d1440",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "d1440",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "d1440",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/about",
+    "width": "d1440",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/about",
+    "width": "d1440",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/about",
+    "width": "d1440",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/about",
+    "width": "d1440",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/about",
+    "width": "d1440",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/contact",
+    "width": "d1440",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/contact",
+    "width": "d1440",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/contact",
+    "width": "d1440",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/contact",
+    "width": "d1440",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/contact",
+    "width": "d1440",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "d1440",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "d1440",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "d1440",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "d1440",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "d1440",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/privacy",
+    "width": "d1440",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/privacy",
+    "width": "d1440",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/privacy",
+    "width": "d1440",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/privacy",
+    "width": "d1440",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/privacy",
+    "width": "d1440",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/",
+    "width": "d1920",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/",
+    "width": "d1920",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/",
+    "width": "d1920",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/",
+    "width": "d1920",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/",
+    "width": "d1920",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/",
+    "width": "d1920",
+    "check": "desktop/tablet hero CTAs retained",
+    "pass": true,
+    "detail": "ctaLinksInHero=2"
+  },
+  {
+    "page": "/services",
+    "width": "d1920",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services",
+    "width": "d1920",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services",
+    "width": "d1920",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services",
+    "width": "d1920",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services",
+    "width": "d1920",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "d1920",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "d1920",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "d1920",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "d1920",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/commercial-landscaping",
+    "width": "d1920",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "d1920",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "d1920",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "d1920",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "d1920",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/snow-ice-management",
+    "width": "d1920",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "d1920",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "d1920",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "d1920",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "d1920",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/services/hardscape-design",
+    "width": "d1920",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/industries",
+    "width": "d1920",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/industries",
+    "width": "d1920",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/industries",
+    "width": "d1920",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/industries",
+    "width": "d1920",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/industries",
+    "width": "d1920",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio",
+    "width": "d1920",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio",
+    "width": "d1920",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio",
+    "width": "d1920",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio",
+    "width": "d1920",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio",
+    "width": "d1920",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "d1920",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "d1920",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "d1920",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "d1920",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/hotel-entry-landscape-renovation",
+    "width": "d1920",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "d1920",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "d1920",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "d1920",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "d1920",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/portfolio/demo-industrial-snow-operations",
+    "width": "d1920",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "d1920",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "d1920",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "d1920",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "d1920",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/how-we-work",
+    "width": "d1920",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/about",
+    "width": "d1920",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/about",
+    "width": "d1920",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/about",
+    "width": "d1920",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/about",
+    "width": "d1920",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/about",
+    "width": "d1920",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/contact",
+    "width": "d1920",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/contact",
+    "width": "d1920",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/contact",
+    "width": "d1920",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/contact",
+    "width": "d1920",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/contact",
+    "width": "d1920",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "d1920",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "d1920",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "d1920",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "d1920",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/request-a-proposal",
+    "width": "d1920",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  },
+  {
+    "page": "/privacy",
+    "width": "d1920",
+    "check": "HTTP 200",
+    "pass": true,
+    "detail": "status=200"
+  },
+  {
+    "page": "/privacy",
+    "width": "d1920",
+    "check": "no horizontal overflow",
+    "pass": true,
+    "detail": "overflow=0px"
+  },
+  {
+    "page": "/privacy",
+    "width": "d1920",
+    "check": "no broken images",
+    "pass": true,
+    "detail": "none"
+  },
+  {
+    "page": "/privacy",
+    "width": "d1920",
+    "check": "no lightbox triggers",
+    "pass": true,
+    "detail": "dialogs=0 openImageButtons=0"
+  },
+  {
+    "page": "/privacy",
+    "width": "d1920",
+    "check": "console clean",
+    "pass": true,
+    "detail": "clean"
+  }
+]

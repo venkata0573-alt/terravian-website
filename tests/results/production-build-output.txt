@@ -1,0 +1,60 @@
+
+> terravian-landscaping@0.1.0 build
+> next build
+
+   ▲ Next.js 15.5.25
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 24.5s
+   Linting and checking validity of types ...
+
+./components/forms/useFormSubmission.ts
+6:3  Warning: 'TIMESTAMP_FIELD' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./components/home/BeforeAfter.tsx
+98:15  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+107:15  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
+   Collecting page data ...
+   Generating static pages (0/25) ...
+   Generating static pages (6/25) 
+   Generating static pages (12/25) 
+   Generating static pages (18/25) 
+ ✓ Generating static pages (25/25)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                           Size  First Load JS
+┌ ○ /                                              3.31 kB         159 kB
+├ ○ /_not-found                                      136 B         102 kB
+├ ○ /about                                           169 B         106 kB
+├ ƒ /api/address-suggest                             136 B         102 kB
+├ ○ /contact                                       1.45 kB         113 kB
+├ ○ /how-we-work                                    2.1 kB         156 kB
+├ ○ /industries                                      169 B         106 kB
+├ ○ /portfolio                                     3.49 kB         114 kB
+├ ● /portfolio/[slug]                                175 B         111 kB
+├   ├ /portfolio/hotel-entry-landscape-renovation
+├   ├ /portfolio/demo-office-grounds-program
+├   ├ /portfolio/demo-hoa-seasonal-color
+├   └ [+3 more paths]
+├ ○ /privacy                                         136 B         102 kB
+├ ○ /request-a-proposal                            2.11 kB         114 kB
+├ ○ /robots.txt                                      136 B         102 kB
+├ ○ /services                                        164 B         106 kB
+├ ● /services/[service]                            3.81 kB         160 kB
+├   ├ /services/commercial-landscaping
+├   ├ /services/snow-ice-management
+├   └ /services/hardscape-design
+└ ○ /sitemap.xml                                     136 B         102 kB
++ First Load JS shared by all                       102 kB
+  ├ chunks/255-9e5c9994c6807ca2.js                 46.1 kB
+  ├ chunks/4bd1b696-409494caf8c83275.js            54.2 kB
+  └ other shared chunks (total)                    1.93 kB
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
